@@ -13,8 +13,8 @@ import {
 } from '@nestjs/common'
 import { Auth } from 'src/auth/decorators/auth.decorator'
 import { IdValidationPipe } from 'src/pipes/id.validation.pipe'
-import { ActorDto } from './actor.dto'
 import { ActorService } from './actor.service'
+import { ActorDto } from './dto/actor.dto'
 
 @Controller('actors')
 export class ActorController {
