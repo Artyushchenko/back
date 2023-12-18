@@ -1,4 +1,10 @@
-import { IsArray, IsNumber, IsObject, IsString } from 'class-validator'
+import {
+	IsArray,
+	IsNotEmpty,
+	IsNumber,
+	IsObject,
+	IsString,
+} from 'class-validator'
 
 export class Parameters {
 	@IsNumber()
@@ -21,6 +27,7 @@ export class UpdateMovieDto {
 	@IsString()
 	title: string
 
+	@IsNotEmpty()
 	@IsString()
 	slug: string
 
