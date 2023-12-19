@@ -1896,6 +1896,14 @@ class-transformer@^0.5.1:
   resolved "https://registry.yarnpkg.com/class-transformer/-/class-transformer-0.5.1.tgz#24147d5dffd2a6cea930a3250a677addf96ab336"
   integrity sha512-SQa1Ws6hUbfC98vKGxZH3KFY0Y1lm5Zm0SY8XX9zbK7FJCyVEac3ATW0RIpwzW+oOfmHE5PMPufDG9hCfoEOMw==
 
+class-validator-mongo-object-id@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/class-validator-mongo-object-id/-/class-validator-mongo-object-id-1.4.0.tgz#6667e65ab01acf8251ae2aed3e5d1a23668f4618"
+  integrity sha512-YlNFLV8UOcuC2uubOV7EPK6GmeUawul4vACJrT4kFdjXIBvC7eRonX/rur1z5yPn+GqsnSCz7xXCPhjHgLwXhg==
+  dependencies:
+    class-validator "^0.14.0"
+    mongoose "^8.0.0"
+
 class-validator@^0.14.0:
   version "0.14.0"
   resolved "https://registry.yarnpkg.com/class-validator/-/class-validator-0.14.0.tgz#40ed0ecf3c83b2a8a6a320f4edb607be0f0df159"
@@ -4046,7 +4054,7 @@ mongodb@6.2.0:
     bson "^6.2.0"
     mongodb-connection-string-url "^2.6.0"
 
-mongoose@*, mongoose@^8.0.3:
+mongoose@*, mongoose@^8.0.0, mongoose@^8.0.3:
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/mongoose/-/mongoose-8.0.3.tgz#f3708ba0f40b6dec8f5f1a5d40abd69a80207114"
   integrity sha512-LJRT0yP4TW14HT4r2RkxqyvoTylMSzWpl5QOeVHTnRggCLQSpkoBdgbUtORFq/mSL2o9cLCPJz+6uzFj25qbHw==
