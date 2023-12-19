@@ -56,8 +56,6 @@ export class GenreService {
 			genres.map(async (genre) => {
 				const moviesByGenre = await this.movieService.byGenres([genre._id])
 
-				console.log('moviesByGenre:', moviesByGenre)
-
 				const result: ICollection = {
 					_id: String(genre._id),
 					image: moviesByGenre[0].bigPoster,
